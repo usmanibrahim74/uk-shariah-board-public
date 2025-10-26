@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shariah Council</title>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dq9xCdLg.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-lg sm:text-xl">
+                        SC
+                    </div>
+                    <span class="ml-2 sm:ml-3 text-base sm:text-xl font-semibold text-gray-800">Shariah Council</span>
+                </div>
+
+                <!-- Desktop Navigation and Download Button -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <nav class="flex space-x-8">
+                        <a href="#" class="text-gray-700 hover:text-blue-600 font-medium transition duration-200">Home</a>
+                        <a href="#introduction" class="text-gray-700 hover:text-blue-600 font-medium transition duration-200">About</a>
+                        <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium transition duration-200">Services</a>
+                        <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium transition duration-200">Contact</a>
+                    </nav>
+                    <a href="assets/application-form.pdf" download class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-200 font-medium shadow-sm whitespace-nowrap">
+                        Download Form
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200">
+            <nav class="flex flex-col space-y-1 px-4 py-4">
+                <a href="#" class="text-gray-700 hover:text-blue-600 font-medium py-3 px-2 rounded-md hover:bg-gray-100 transition">Home</a>
+                <a href="#introduction" class="text-gray-700 hover:text-blue-600 font-medium py-3 px-2 rounded-md hover:bg-gray-100 transition">About</a>
+                <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium py-3 px-2 rounded-md hover:bg-gray-100 transition">Services</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium py-3 px-2 rounded-md hover:bg-gray-100 transition">Contact</a>
+                <a href="assets/application-form.pdf" download class="bg-blue-600 text-white font-medium py-3 px-4 rounded-md hover:bg-blue-700 transition text-center">
+                    Download Application Form
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+    <main class="min-h-screen bg-gray-50">
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-r from-blue-800 to-green-700 text-white py-16 sm:py-20 md:py-24">
+            <div class="absolute inset-0 bg-black opacity-20"></div>
+            <div class="absolute inset-0" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80'); background-size: cover; background-position: center; opacity: 0.3;"></div>
+
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                    Welcome to UK Shariah Board
+                </h1>
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 text-gray-100 max-w-3xl mx-auto">
+                    Your trusted partner in Islamic legal advisory services. We provide comprehensive Shariah-compliant solutions for Marriage, Divorce, Khula, Wirasat, and Wills matters.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="assets/application-form.pdf" download class="bg-white text-blue-700 px-6 sm:px-8 py-3 rounded-md hover:bg-gray-100 transition duration-200 font-semibold shadow-lg w-full sm:w-auto text-sm sm:text-base">
+                        Download Application Form
+                    </a>
+                    <a href="mailto:info@ukshariahboard.com" class="bg-transparent border-2 border-white text-white px-6 sm:px-8 py-3 rounded-md hover:bg-white hover:text-blue-800 transition duration-200 font-semibold w-full sm:w-auto text-sm sm:text-base">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section id="introduction" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Introduction</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">About UK Shariah Board</h3>
+                        <p class="text-gray-600 mb-4">
+                            The UK Shariah Board is a leading Islamic legal advisory organization dedicated to providing comprehensive Shariah-compliant solutions for individuals and families across the United Kingdom. Our mission is to ensure that Muslim communities have access to authentic Islamic legal guidance in matters of personal law.
+                        </p>
+                        <p class="text-gray-600 mb-4">
+                            With a team of qualified Islamic scholars and legal experts, we specialize in addressing critical life matters including Marriage, Divorce, Khula (judicial divorce), Wirasat (Islamic inheritance), and Wills. Our services are designed to bridge the gap between Islamic principles and UK legal systems.
+                        </p>
+                        <p class="text-gray-600">
+                            We operate through a network of central and zonal offices, ensuring that our services are accessible to communities throughout the UK. Our commitment is to uphold the highest standards of Islamic jurisprudence while providing practical, compassionate guidance to those in need.
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-50 to-green-50 p-8 rounded-lg shadow-lg">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-4">Our Values</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">✓</span>
+                                <span class="text-gray-700">Authentic Islamic scholarship based on Quran and Sunnah</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">✓</span>
+                                <span class="text-gray-700">Compassionate and respectful service to all</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">✓</span>
+                                <span class="text-gray-700">Transparency in all legal processes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">✓</span>
+                                <span class="text-gray-700">Community-focused approach</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-600 mr-2">✓</span>
+                                <span class="text-gray-700">Compliance with UK legal framework</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Marriage Service -->
+                    <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                            <span class="text-2xl sm:text-3xl">💍</span>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Marriage</h3>
+                        <p class="text-gray-600">
+                            We provide Islamic marriage (Nikah) services ensuring all Islamic requirements are met. Our qualified scholars conduct marriages in accordance with Shariah principles.
+                        </p>
+                    </div>
+
+                    <!-- Divorce Service -->
+                    <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                            <span class="text-2xl sm:text-3xl">📜</span>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Divorce</h3>
+                        <p class="text-gray-600">
+                            Our Divorce services help couples navigate the process of Islamic divorce (Talaq) with proper guidance and adherence to Islamic legal principles.
+                        </p>
+                    </div>
+
+                    <!-- Khula Service -->
+                    <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                            <span class="text-2xl sm:text-3xl">⚖️</span>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Khula</h3>
+                        <p class="text-gray-600">
+                            Khula services for women seeking divorce from court. We provide guidance and assistance throughout the judicial divorce process according to Islamic law.
+                        </p>
+                    </div>
+
+                    <!-- Wirasat Service -->
+                    <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                            <span class="text-2xl sm:text-3xl">🏛️</span>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Wirasat</h3>
+                        <p class="text-gray-600">
+                            Islamic inheritance and distribution of property and wealth after death (Wirasat). We ensure proper distribution according to Shariah law.
+                        </p>
+                    </div>
+
+                    <!-- Wills Service -->
+                    <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <div class="w-12 h-12 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                            <span class="text-2xl sm:text-3xl">📋</span>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-3">Wills</h3>
+                        <p class="text-gray-600">
+                            Islamic Wills services to help you create Shariah-compliant wills that ensure your assets are distributed according to Islamic principles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Management Section -->
+        <section id="management" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Management</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                        Our dedicated leadership team brings together decades of experience in Islamic jurisprudence and community service.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Management Member 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition duration-300">
+                        <div class="w-32 h-32 bg-blue-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl">👨‍💼</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Dr. Ahmed Hassan</h3>
+                        <p class="text-blue-600 font-medium mb-3">Chief Advisor</p>
+                        <p class="text-gray-600 text-sm">
+                            PhD in Islamic Jurisprudence with over 25 years of experience in Shariah advisory services.
+                        </p>
+                    </div>
+
+                    <!-- Management Member 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition duration-300">
+                        <div class="w-32 h-32 bg-green-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl">👩‍💼</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Fatima Khan</h3>
+                        <p class="text-blue-600 font-medium mb-3">Director of Operations</p>
+                        <p class="text-gray-600 text-sm">
+                            Expert in Islamic family law with specialization in marriage and divorce proceedings.
+                        </p>
+                    </div>
+
+                    <!-- Management Member 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition duration-300">
+                        <div class="w-32 h-32 bg-purple-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl">👨‍💼</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Imam Muhammad Ali</h3>
+                        <p class="text-blue-600 font-medium mb-3">Head of Wirasat Services</p>
+                        <p class="text-gray-600 text-sm">
+                            Specialist in Islamic inheritance law and estate planning for Muslim families in the UK.
+                        </p>
+                    </div>
+
+                    <!-- Management Member 4 -->
+                    <div class="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition duration-300">
+                        <div class="w-32 h-32 bg-blue-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl">👨‍💼</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Dr. Sarah Begum</h3>
+                        <p class="text-blue-600 font-medium mb-3">Senior Legal Counsel</p>
+                        <p class="text-gray-600 text-sm">
+                            Barrister with expertise in integrating UK legal systems with Shariah principles.
+                        </p>
+                    </div>
+
+                    <!-- Management Member 5 -->
+                    <div class="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition duration-300">
+                        <div class="w-32 h-32 bg-green-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl">👨‍💼</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Umar Farooq</h3>
+                        <p class="text-blue-600 font-medium mb-3">Community Outreach Manager</p>
+                        <p class="text-gray-600 text-sm">
+                            Dedicated to ensuring our services reach all Muslim communities across the UK.
+                        </p>
+                    </div>
+
+                    <!-- Management Member 6 -->
+                    <div class="bg-gray-50 p-6 rounded-lg text-center hover:shadow-md transition duration-300">
+                        <div class="w-32 h-32 bg-purple-200 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-5xl">👩‍💼</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Ayesha Malik</h3>
+                        <p class="text-blue-600 font-medium mb-3">Financial Administrator</p>
+                        <p class="text-gray-600 text-sm">
+                            Ensures transparency and efficient management of all financial and administrative matters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Flow Section -->
+        <section id="process" class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Process Flow</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                        Our streamlined process ensures efficient and transparent handling of your legal matters.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto">
+                    <!-- Step 1 -->
+                    <div class="flex items-start mb-8">
+                        <div class="flex-shrink-0">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                                1
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Initial Consultation</h3>
+                            <p class="text-gray-600">
+                                Contact us through our website, phone, or visit one of our offices. Our team will schedule a consultation to understand your requirements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="flex items-start mb-8">
+                        <div class="flex-shrink-0">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                                2
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Application Submission</h3>
+                            <p class="text-gray-600">
+                                Complete and submit the required application form along with necessary documentation. Our team will review your application.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="flex items-start mb-8">
+                        <div class="flex-shrink-0">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                                3
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Review by Shariah Board</h3>
+                            <p class="text-gray-600">
+                                Your case is reviewed by our qualified Shariah scholars and legal experts to ensure proper Islamic jurisprudence is applied.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="flex items-start mb-8">
+                        <div class="flex-shrink-0">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                                4
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Approval and Documentation</h3>
+                            <p class="text-gray-600">
+                                Once approved, all necessary documentation is prepared and certified according to Shariah principles and UK legal requirements.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                                5
+                            </div>
+                        </div>
+                        <div class="ml-6">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Completion and Follow-up</h3>
+                            <p class="text-gray-600">
+                                Receive your completed documents and certificates. Our team provides ongoing support and guidance as needed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-12">
+                    <a href="assets/application-form.pdf" download class="inline-block bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition duration-200 font-semibold shadow-lg">
+                        Download Application Form
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Central Office Section -->
+        <section id="central-office" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Central Office</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Visit Our Main Office</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <span class="text-blue-600 text-xl mr-3">📍</span>
+                                <div>
+                                    <p class="font-semibold text-gray-800">Address</p>
+                                    <p class="text-gray-600">123 Regent Street</p>
+                                    <p class="text-gray-600">London, W1B 3HT</p>
+                                    <p class="text-gray-600">United Kingdom</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <span class="text-blue-600 text-xl mr-3">📞</span>
+                                <div>
+                                    <p class="font-semibold text-gray-800">Phone</p>
+                                    <p class="text-gray-600">+44 20 1234 5678</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <span class="text-blue-600 text-xl mr-3">✉️</span>
+                                <div>
+                                    <p class="font-semibold text-gray-800">Email</p>
+                                    <p class="text-gray-600">info@ukshariahboard.com</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <span class="text-blue-600 text-xl mr-3">🕐</span>
+                                <div>
+                                    <p class="font-semibold text-gray-800">Working Hours</p>
+                                    <p class="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                                    <p class="text-gray-600">Saturday: 10:00 AM - 2:00 PM</p>
+                                    <p class="text-gray-600">Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-100 rounded-lg p-8">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-4">How to Reach Us</h4>
+                        <p class="text-gray-600 mb-4">
+                            Our Central Office is easily accessible by public transport. Located in the heart of London, we serve as the main hub for all administrative matters and complex case consultations.
+                        </p>
+                        <p class="text-gray-600 mb-4">
+                            <strong>By Tube:</strong> Nearest station is Oxford Circus (Central, Bakerloo, Victoria lines)
+                        </p>
+                        <p class="text-gray-600">
+                            <strong>By Bus:</strong> Routes 12, 88, 94, 139
+                        </p>
+
+                        <div class="mt-8">
+                            <a href="mailto:info@ukshariahboard.com" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition duration-200 font-semibold">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Zonal Office Section -->
+        <section id="zonal-office" class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Zonal Offices</h2>
+                    <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                        Our zonal offices across the UK bring our services closer to you.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Zonal Office 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl mr-4">🏢</span>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-800">Birmingham Office</h3>
+                                <p class="text-blue-600 font-medium">West Midlands Zone</p>
+                            </div>
+                        </div>
+                        <div class="space-y-2 text-gray-600">
+                            <p class="flex items-start">
+                                <span class="mr-2">📍</span>
+                                <span>45 Temple Street, Birmingham, B2 5DP</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">📞</span>
+                                <span>+44 121 456 7890</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">✉️</span>
+                                <span>birmingham@ukshariahboard.com</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">🕐</span>
+                                <span>Mon-Fri: 10:00 AM - 4:00 PM</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Zonal Office 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl mr-4">🏢</span>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-800">Manchester Office</h3>
+                                <p class="text-blue-600 font-medium">North West Zone</p>
+                            </div>
+                        </div>
+                        <div class="space-y-2 text-gray-600">
+                            <p class="flex items-start">
+                                <span class="mr-2">📍</span>
+                                <span>78 Oxford Road, Manchester, M1 6FP</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">📞</span>
+                                <span>+44 161 789 0123</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">✉️</span>
+                                <span>manchester@ukshariahboard.com</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">🕐</span>
+                                <span>Mon-Fri: 10:00 AM - 4:00 PM</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Zonal Office 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl mr-4">🏢</span>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-800">Leeds Office</h3>
+                                <p class="text-blue-600 font-medium">Yorkshire Zone</p>
+                            </div>
+                        </div>
+                        <div class="space-y-2 text-gray-600">
+                            <p class="flex items-start">
+                                <span class="mr-2">📍</span>
+                                <span>12 Woodhouse Lane, Leeds, LS2 9HD</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">📞</span>
+                                <span>+44 113 567 8901</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">✉️</span>
+                                <span>leeds@ukshariahboard.com</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">🕐</span>
+                                <span>Mon-Fri: 10:00 AM - 4:00 PM</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Zonal Office 4 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center mb-4">
+                            <span class="text-4xl mr-4">🏢</span>
+                            <div>
+                                <h3 class="text-2xl font-semibold text-gray-800">Bradford Office</h3>
+                                <p class="text-blue-600 font-medium">Yorkshire Zone</p>
+                            </div>
+                        </div>
+                        <div class="space-y-2 text-gray-600">
+                            <p class="flex items-start">
+                                <span class="mr-2">📍</span>
+                                <span>89 Manningham Lane, Bradford, BD1 3EH</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">📞</span>
+                                <span>+44 1274 345 678</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">✉️</span>
+                                <span>bradford@ukshariahboard.com</span>
+                            </p>
+                            <p class="flex items-start">
+                                <span class="mr-2">🕐</span>
+                                <span>Mon-Fri: 10:00 AM - 4:00 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-12">
+                    <p class="text-gray-600 mb-4">Need help finding your nearest office?</p>
+                    <a href="mailto:info@ukshariahboard.com" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition duration-200 font-semibold">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <!-- About -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">About Us</h3>
+                    <p class="text-gray-400 mb-4">
+                        UK Shariah Board is dedicated to providing authentic Islamic legal advisory services for Muslim communities across the United Kingdom.
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold mr-3">
+                            SC
+                        </div>
+                        <span class="font-semibold">Shariah Council</span>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#introduction" class="hover:text-white transition">Introduction</a></li>
+                        <li><a href="#services" class="hover:text-white transition">Our Services</a></li>
+                        <li><a href="#management" class="hover:text-white transition">Management</a></li>
+                        <li><a href="#process" class="hover:text-white transition">Process Flow</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition">Marriage</a></li>
+                        <li><a href="#" class="hover:text-white transition">Divorce</a></li>
+                        <li><a href="#" class="hover:text-white transition">Khula</a></li>
+                        <li><a href="#" class="hover:text-white transition">Wirasat</a></li>
+                        <li><a href="#" class="hover:text-white transition">Wills</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <span class="mr-2">📍</span>
+                            <span>123 Regent Street, London, W1B 3HT</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2">📞</span>
+                            <span>+44 20 1234 5678</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-2">✉️</span>
+                            <span>info@ukshariahboard.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 UK Shariah Board. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
